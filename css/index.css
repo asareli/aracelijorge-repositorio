@@ -151,3 +151,17 @@ footer{
 
     }
 }
+@media screen and (max-width: 1024px) and (max-height: 876px) {
+    .barra{
+        height: 170px;
+    }
+    .barra__navegacion__lista{
+        flex-direction: column;
+    }
+    .title{
+        flex-direction: column;
+    }
+    .title__container{
+        font-size: 45px;
+    }
+}
