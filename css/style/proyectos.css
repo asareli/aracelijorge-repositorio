@@ -171,3 +171,28 @@ footer{
         margin-bottom: 10px;
     }
 }
+@media screen and (max-width: 1024px) and (max-height: 876px) {
+    .barra{
+        height: 170px;
+    }
+    .barra__navegacion__lista{
+        flex-direction: column;
+    }
+    .title{
+        flex-direction: column;
+    }
+    .title__container{
+        font-size: 45px;
+    }
+    .subtitulo{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .subtitulo__proyectos{
+        flex-direction: column;
+    }
+    .subtitulo__proyectos__botones{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
